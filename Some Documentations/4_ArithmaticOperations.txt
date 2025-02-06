@@ -1,0 +1,51 @@
+
+Arithmetic Expressions in Prolog
+	Addition: 	X is 10 + 5.
+	Subtraction:	X is 10-5.
+	Multiplication: X is 10*5.
+	Division:	X is 10/5
+	Remainder:	X is 10 mod 5
+	IntegerQuotient: X is 10//5
+
+Numeric Comparision Operators
+	Greater than	: >
+	Less than	: <
+	Greater than or 
+	equal		: >=
+	Less than or 
+	equal		: =<
+
+	Same Numeric 
+	Value		: =:=
+	
+	Different 
+	Numeric Values	: =\=
+
+Term Comparision
+	
+	Terms are same		: ==
+	Terms are not same 	: \==
+
+Predifined Arithmatic Functions 
+
+	abs(X)		: absolute value of X
+	exp(X)		: e^x : e is 2.71828182845
+	sqrt(X)		: X^(1/2)
+	float(22)	: 22.0
+	floor(1.66)	: 1
+	truncate(1.5)	: 1
+	round(1.3)	: 1
+	ceiling(1.3)	: 2
+
+Input & output functions
+
+	write("hello") : display the message hello.
+	nl		: newline.
+	writeq(hello)	: display the message with quotes when its appropriate.
+	read(X)		: read value from user for X	
+
+
+Looping fixed term of times.
+	loop(0).
+	loop(N):-N>0,write('The value is: '),write(N),nl,
+ 	M is N-1,loop(M). 

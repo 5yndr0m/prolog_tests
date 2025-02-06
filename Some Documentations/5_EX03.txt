@@ -1,0 +1,14 @@
+ 
+ Exercise.
+ ----------
+ 
+ 01. Find the Sum of 2 integers.
+ 02. Find an integer is odd or even.
+ 03. Display the word entered by the user.
+ 04. Read 2 integers & a operation from user and find the output.
+ 05. Output integers from First to Last inclusive.
+ 06. Sum the integers from 1 to N.
+ 07. Output the first N squares, one per line.
+ 08. Read terms entered by the user from the 
+	 keyboard and output them to the screen, until end is encountered.
+ 09. Find factorial of a positive integer N.
